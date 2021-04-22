@@ -7,8 +7,12 @@ public class Human {
 	String eyeColor;
 	
 	//constructor method always as the same as the class
-	public Human() {
-		
+	public Human(String name, int heightInInches, String eyeColor, int age ) {
+		super(); //point to the current class
+		this.name = name;
+		this.heightInInches = heightInInches;
+		this.eyeColor = eyeColor;
+		this.age = age;
 	}
 	
 	public void speak() {
