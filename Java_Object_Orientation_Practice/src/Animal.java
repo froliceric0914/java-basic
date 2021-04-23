@@ -10,10 +10,13 @@ public class Animal {
 		this.weightInLbs = weightInLbs;
 	}
 	
-	public  void basicInfo() {
+	public void basicInfo() {
 		System.out.println("Its age is " + age);
 		System.out.println("It is a " + gender + "and weight in " + weightInLbs);
 	}
 	
+	public void eat() {
+		System.out.println("Eat...");
+	}
 	
 }
