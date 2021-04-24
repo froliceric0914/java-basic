@@ -8,7 +8,11 @@ public class Zoo {;
 		Bird bird = new Bird(5,"F",10);
 		bird.basicInfo();
 		bird.eat();
-		bird.fly();
+		
+		Sparrow sparraw1 = new Sparrow(1,"M",5);
+		sparraw1.basicInfo();
+		sparraw1.fly();
+		
 	};
 	
 }
