@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 	int age;
 	String gender;
 	int weightInLbs;
@@ -18,5 +18,7 @@ public class Animal {
 	public void eat() {
 		System.out.println("Eat...");
 	}
+	
+	public abstract void move();
 	
 }
