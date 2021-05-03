@@ -36,6 +36,7 @@ public class StockFileReader {
 	 */
 	public List<String> readFileData() throws IOException{
 		List<String> lines = new ArrayList<String>();
+
 		try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
 			br.readLine();
 			String line = null;
@@ -44,7 +45,7 @@ public class StockFileReader {
 			}
 			
 		}
-		
+
 	    return lines;
 	}
 	
