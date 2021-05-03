@@ -1,10 +1,15 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class traversing_list {
 
 	public static void main(String[] args) {
+		
+		
+		HashMap<String, Double> headerValueMap = new HashMap<>();
+		
 		ArrayList<String> animals = new ArrayList<String>();
 		animals.add("lion");
 		animals.add("tiger");
